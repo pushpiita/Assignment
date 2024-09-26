@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Radio Group with Radio Buttons -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioChandlerBing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chandler_bing" />
+
+        <RadioButton
+            android:id="@+id/radioChandlerBong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chandler_bong" />
+    </RadioGroup>
+
+    <!-- SeekBar -->
+    <TextView
+        android:id="@+id/seekBarMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_am_chandler_i_make_jokes_when_uncomfortable"
+        android:layout_marginTop="24dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- CheckBox -->
+    <CheckBox
+        android:id="@+id/checkBoxLoveMonica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_love_monica"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

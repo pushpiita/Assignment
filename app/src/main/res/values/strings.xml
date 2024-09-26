@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="chanchan_man">ChanChan Man</string>
+    <string name="chandler_bing">Chandler Bing</string>
+    <string name="chandler_bong">Chandler Bong</string>
+    <string name="i_am_chandler_i_make_jokes_when_uncomfortable">I am Chandler, I make jokes when uncomfortable</string>
+    <string name="i_love_monica">I love Monica</string>
+</resources>
